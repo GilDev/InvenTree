@@ -29,7 +29,7 @@ Clicking on the part name links to the [*Part Detail*](./views.md) view.
 
 ## Part Attributes
 
-Each *Part* defined in the database provides a number of different attributes which determine how that part can be used. Configuring these attributes for a given part will impact the available functions that can be perform on (or using) that part).
+Each *Part* defined in the database provides a number of different attributes which determine how that part can be used. Configuring these attributes for a given part will impact the available functions that can be performed on (or using) that part.
 
 ### Virtual
 
@@ -41,11 +41,11 @@ A *Template* part is one which can have *variants* which exist underneath it. [R
 
 ### Assembly
 
-If a part is designated as an *Assembly* it can be created (or built) from other component parts. As an example, a circuit board assembly is made using multiple electronic components, which are tracked in the system. An *Assembly* Part has a Bill of Materials (BOM) which lists all the required sub-components. [Read further information about BOM management here](../build/bom.md).
+A part designated as an *Assembly* can be created (or built) from other component parts. As an example, a circuit board assembly is made using multiple electronic components, which are tracked in the system. An *Assembly* Part has a Bill of Materials (BOM) which lists all the required sub-components. [Read further information about BOM management here](../build/bom.md).
 
 ### Component
 
-If a part is designated as a *Component* it can be used as a sub-component of an *Assembly*. [Read further information about BOM management here](../build/bom.md)
+A part designated as a *Component* can be used as a sub-component of an *Assembly*. [Read further information about BOM management here](../build/bom.md)
 
 ### Testable
 
